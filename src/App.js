@@ -14,6 +14,9 @@ function App() {
 
     function handleSlide(direction) {
         setSlider(prevState => {
+            if(sliderMode !== 'manual'){
+                return prevState;
+            }
             let index = (prevState + direction) % images.length;
             return index;
         });

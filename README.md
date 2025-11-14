@@ -1,70 +1,63 @@
-# Getting Started with Create React App
+# SliderReact
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 🖼️ Aplicação de Slider Simples com React
 
-## Available Scripts
+O **SliderReact** é um projeto que demonstra a criação de um componente de *slider* (carrossel) simples e funcional utilizando o *framework* **React**. O foco principal é no gerenciamento de estado e na renderização condicional de elementos, que são conceitos chave no desenvolvimento de interfaces de usuário com React.
 
-In the project directory, you can run:
+### ✨ Funcionalidades em Destaque
 
-### `npm start`
+*   **Componente Reutilizável:** O projeto é centrado em um componente `Radio` (provavelmente usado para a navegação do slider, como pontos ou botões de rádio), demonstrando a criação de componentes funcionais em React.
+*   **Gerenciamento de Estado:** Utiliza *hooks* do React (como `useState` e `useId`) para gerenciar o estado do slider (qual slide está ativo, etc.).
+*   **Estrutura Modular:** O código é organizado em pastas para componentes, estilos (`css`), e utilitários (`js`, `utils`), seguindo as boas práticas de um projeto React.
+*   **Foco em Frontend:** O projeto é uma demonstração de habilidades em React, JavaScript e CSS.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 🛠️ Tecnologias Utilizadas
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+| Tecnologia | Uso Principal |
+| :--- | :--- |
+| **React** | Biblioteca JavaScript para construção da interface e lógica do slider. |
+| **JavaScript (ES6+)** | Lógica do slider e manipulação de estado. |
+| **CSS** | Estilização do slider e da aplicação. |
 
-### `npm test`
+### 📂 Estrutura do Projeto
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+O projeto segue a estrutura padrão de um aplicativo React, com foco nos seguintes diretórios:
 
-### `npm run build`
+```
+SliderReact/
+├── public/         # Arquivos estáticos
+├── src/
+│   ├── components/ # Componentes reutilizáveis (ex: radio.jsx)
+│   ├── css/        # Arquivos de estilo
+│   ├── js/         # Arquivos JavaScript (se houver lógica separada)
+│   ├── utils/      # Funções utilitárias
+│   └── App.js      # Componente principal
+└── package.json    # Dependências e scripts do projeto
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 🚀 Como Executar
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Para rodar o projeto localmente, siga os passos abaixo:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+# 1. Clone o repositório
+git clone https://github.com/BrizidoAndre/SliderReact.git
 
-### `npm run eject`
+# 2. Navegue até o diretório do projeto
+cd SliderReact
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# 3. Instale as dependências
+npm install
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# 4. Inicie o servidor de desenvolvimento
+npm start
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+A aplicação estará disponível em `http://localhost:3000` (ou outra porta, se a 3000 estiver ocupada).
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### 📝 Licença
 
-## Learn More
+Este projeto está sob a licença [MIT](https://choosealicense.com/licenses/mit/).
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+*Desenvolvido por [BrizidoAndre](https://github.com/BrizidoAndre)*
