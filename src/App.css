@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-slider {
+    width: 700px;
+    height: 400px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.wrapper {
+    width: calc(100% * 3);
+    height: 100%;
+    display: flex;
+    transition: .4s;
+}
+
+.slider {
+    min-height: 100%;
+    width: 700px;
+    img {
+        width: 700px;
+        height: 100%;
+        object-fit: contain;
+    }
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+}
+
+/*.input-file{*/
+/*    display: ;*/
+/*}*/
